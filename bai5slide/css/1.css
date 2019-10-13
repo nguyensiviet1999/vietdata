@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;} 
+.dautien{
+	background-attachment: fixed;
+	background-image: url('localhost/bai5slide/img/bgr_news.jpg');
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	height: 900px;
+}
+
+.form-box{
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 7px;
+	opacity: 0.9;
+}
+.dautien:before{
+	content: "";
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    background: #333;
+    opacity: 0.6;
+}
+#title{
+  font-size: 30px;
+  background: -webkit-linear-gradient(white, yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
